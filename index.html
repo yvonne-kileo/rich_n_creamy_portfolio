@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peter Babu | Cake Artist & Baker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+  
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <i class="fa-solid fa-cake-candles me-2"></i>Rich N Creamy Cakery
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cakes">Cakes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="images/babuone.jpg" alt="Peter Babu" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <h1>Peter Babu</h1>
+          <h4 id="typed-text" class="text-muted mb-3"></h4>
+          <p>Turning every celebration into a sweet masterpiece. From elegant wedding cakes to fun birthday treats, each creation is baked with passion and perfection.</p>
+          <button class="btn-gold">Contact</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="about py-5 fade-in" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- About image -->
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img src="images/babutwo.jpg" 
+             alt="About Peter Babu" class="img-fluid rounded shadow">
+      </div>
+
+      <!-- About text -->
+<div class="col-md-7 text-white fade-element">
+  <h2 class="section-title mb-4">About Me</h2>
+  <p class="lead">
+    I'm a passionate cake artist and baker who loves creating unique, handcrafted cakes 
+    that blend artistry with rich, delicious flavor. Every design I make is a chance to bring 
+    someone’s vision to life — from elegant wedding masterpieces to playful birthday creations.
+  </p>
+  <p>
+    Every cake I bake is made from scratch using premium ingredients, with special attention to 
+    detail and design. For me, baking isn’t just a job — it’s my way of expressing love, joy, 
+    and creativity through something everyone can share and enjoy.
+  </p>
+  <p>
+    My journey began in a small home kitchen, where I first discovered the magic of transforming 
+    simple ingredients into something extraordinary. Over the years, I’ve grown that passion into 
+    a craft built on precision, imagination, and the joy of making people smile.
+  </p>
+  <p>
+    Whether I’m designing a grand wedding centerpiece or a small dessert table, I believe every 
+    creation should tell a story — one that celebrates love, family, and the beauty of life’s 
+    sweetest moments.
+  </p>
+
+
+        <!-- Highlights -->
+        <div class="row mt-4 text-center">
+        <div class="col-md-4 fade-element" style="--delay: 0s;">
+            <h5 class="text-gold">5+ Years Experience</h5>
+                <p>Mastering the art of cake design and baking.</p>
+        </div>
+        <div class="col-md-4 fade-element" style="--delay: 0.2s;">
+            <h5 class="text-gold">Custom Creations</h5>
+                <p>Every design tailored to your unique story.</p>
+        </div>
+        <div class="col-md-4 fade-element" style="--delay: 0.4s;">
+            <h5 class="text-gold">Premium Ingredients</h5>
+                <p>Only the finest ingredients for quality and taste.</p>
+        </div>
+        </div>
+
+        <a href="#contact" class="btn-gold mt-4">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Cakes Section -->
+  <section class="cakes text-center fade-in" id="cakes">
+    <div class="container">
+      <h2 class="text-gold mb-4">View My Work</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 0s;">
+          <div class="card cake-card">
+            <img src="images/cakesix.jpg"t=Cake+1 alt="Cake 1" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake1Modal">See More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 0.2s;">
+          <div class="card cake-card">
+            <img src="images/cakethree.jpg" alt="Cake 2" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake2Modal">See More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 0.4s;">
+          <div class="card cake-card">
+            <img src="images/caketwo.jpg" alt="Cake 3" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake3Modal">See More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 0.6s;">
+          <div class="card cake-card">
+            <img src="images/cakeeleven.jpg" alt="Cake 4" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake4Modal">See More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 0.8s;">
+          <div class="card cake-card">
+            <img src="images/cakeseven.jpg" alt="Cake 4" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake5Modal">See More</button>
+        </div>
+      </div>
+     </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 1.0s;">
+          <div class="card cake-card">
+            <img src="images/cakeeight.jpeg" alt="Cake 4" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake6Modal">See More</button>
+        </div>
+      </div>
+     </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 1.2s;">
+          <div class="card cake-card">
+            <img src="images/caketwelve.jpg" alt="Cake 4" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake7Modal">See More</button>
+        </div>
+      </div>
+     </div>
+        <div class="col-md-3 col-sm-6 mb-4 fade-element" style="--delay: 1.4s;">
+          <div class="card cake-card">
+            <img src="images/cakethirteen.jpg" alt="Cake 4" class="card-img-top">
+            <div class="card-body">
+              <button class="btn btn-gold" data-bs-toggle="modal" data-bs-target="#cake8Modal">See More</button>
+        </div>
+       </div>
+      </div>
+    </div>
+ </div>
+
+  </section>
+
+  <!-- Cake 1 Modal -->
+<div class="modal fade" id="cake1Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Red Velvet Charm</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakesix.jpg" class="img-fluid rounded mb-3" alt="Cake 1">
+        <p>Moist, velvety layers of red velvet cake filled with a subtle cocoa flavor and topped with a rich cream cheese frosting, finished with a pop of freshness from juicy berries. The deep red color and delicate crumb make it a stunning centerpiece for any occasion.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 2 Modal -->
+<div class="modal fade" id="cake2Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Lemon Short Cake</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakethree.jpg" class="img-fluid rounded mb-3" alt="Cake 2">
+        <p>Vibrant lemon cake with moist layers and a burst of citrus flavor, topped with a smooth and firm frosting.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 3 Modal -->
+<div class="modal fade" id="cake3Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Oreo Crunched Cake</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/caketwo.jpg" class="img-fluid rounded mb-3" alt="Cake 3">
+        <p>Rich chocolate cake filled with cherry goodness, topped with whipped cream and crushed Oreo cookies for a decadent twist on the classic Black Forest cake.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 4 Modal -->
+<div class="modal fade" id="cake4Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Strawberry Delight</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakeeleven.jpg" class="img-fluid rounded mb-3" alt="Cake 4">
+        <p>Moist strawberry cake topped with crumbly strawberry biscuits, bursting with fresh fruit flavor.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 5 Modal -->
+<div class="modal fade" id="cake5Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Brioche Tressee</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakeseven.jpg" class="img-fluid rounded mb-3" alt="Cake 5">
+        <p>Rich, buttery brioche woven into a delicate braid, with a golden crust and soft, tender interior, perfect for breakfast or as a sweet treat.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 6 Modal -->
+<div class="modal fade" id="cake6Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Caramel Chocolate Cake</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakeeight.jpeg" class="img-fluid rounded mb-3" alt="Cake 6">
+        <p>Rich caramel chocolate cake topped with decadent chocolate and crunchy biscuits, a perfect blend of textures and flavors.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 7 Modal -->
+<div class="modal fade" id="cake7Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Royal Blackforest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/caketwelve.jpg" class="img-fluid rounded mb-3" alt="Cake 7">
+        <p>Classic Black Forest cake gets a sweet twist with rich chocolate layers, cherry filling, and a surprise pop of pink icing on top.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cake 8 Modal -->
+<div class="modal fade" id="cake8Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-gold">Blueberry Burst Cake</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/cakethirteen.jpg" class="img-fluid rounded mb-3" alt="Cake 8">
+        <p>"Moist and flavorful blueberry cake, packed with sweet and tangy blueberries in every bite adn topped with blueberry flavored biscuits."</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Testimonials Section -->
+<section class="testimonials text-center fade-in py-5">
+  <div class="container">
+    <h2 class="text-gold mb-5">What My Clients Say</h2>
+
+    <div id="testimonialCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      
+      <!-- Indicators (the 3 dots) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <!-- Testimonial 1 -->
+        <div class="carousel-item active">
+          <p class="lead w-75 mx-auto">
+            “Peter’s cakes are beyond amazing! The design, taste, and attention to detail 
+            made my birthday extra special.”
+          </p>
+          <h5 class="mt-4 text-gold">— Jecinta W.</h5>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="carousel-item">
+          <p class="lead w-75 mx-auto">
+            “Every cake he makes is a work of art. I’ve ordered from him three times now, 
+            and he never disappoints!”
+          </p>
+          <h5 class="mt-4 text-gold">— James K.</h5>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="carousel-item">
+          <p class="lead w-75 mx-auto">
+            “Peter puts his heart into every bake. My birthday cake was not only stunning 
+            but absolutely delicious.”
+          </p>
+          <h5 class="mt-4 text-gold">— Winnie D.</h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact text-center fade-in" id="contact">
+  <div class="container py-5">
+    <h2 class="text-gold mb-4">Get in Touch</h2>
+    <p class="w-75 mx-auto mb-5">
+      Have a special event or custom cake idea? Reach out on WhatsApp, Instagram, or call directly — Peter would love to bake something special for you!
+    </p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contactForm">
+          <div class="mb-3">
+            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" id="order" class="form-control" placeholder="What kind of cake do you want?" required>
+          </div>
+          <div class="mb-3">
+            <textarea id="message" class="form-control" rows="4" placeholder="Add any extra details (flavor, design, event date...)" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold px-4">Send on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <h5 class="text-gold mb-3">Or reach me directly</h5>
+      <p>
+        <a href="https://wa.me/254746738352" target="_blank" class="btn btn-gold mx-2">
+          <i class="bi bi-whatsapp"></i> WhatsApp
+        </a>
+        <a href="https://instagram.com/rich_n_creamy_cakery" target="_blank" class="btn btn-gold mx-2">
+          <i class="bi bi-instagram"></i> Instagram
+        </a>
+        <a href="tel:254746738352" class="btn btn-gold mx-2">
+          <i class="bi bi-telephone-fill"></i> Call
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer Section -->
+<footer class="text-center py-4 bg-dark text-light fade-in">
+  <p class="mb-2">&copy; <span id="year"></span> Rich n Creamy Cakery. All Rights Reserved.</p>
+
+  <!-- Social Icons -->
+  <div class="social-icons mb-2">
+    <a href="https://instagram.com/rich_n_creamy_cakery" target="_blank" class="me-3">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/254746738352" target="_blank" class="me-3">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:254746738352">
+      <i class="fas fa-phone"></i>
+    </a>
+  </div>
+
+  <p class="small mb-0">Designed with ❤ by <strong>Yvonne</strong></p>
+</footer>
+
+<!-- Floating Social Icons -->
+<div class="floating-icons">
+  <a href="https://instagram.com/rich_n_creamy_cakery" target="_blank" class="float-icon instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://wa.me/254746738352" target="_blank" class="float-icon whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:254746738352" class="float-icon phone">
+    <i class="fas fa-phone"></i>
+  </a>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  
+</body>
+</html>
